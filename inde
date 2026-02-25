@@ -1,0 +1,82 @@
+.one{
+    width:300px;
+    height:580px;
+
+    justify-content: center;
+    justify-items: center;
+    color:white;
+   border-radius:30px;
+    background:black;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width:300px;
+    padding-top:0px;   border-radius:30px;
+
+}
+.main{
+    padding-top:100px;
+    gap:100px;
+    display: flex;
+    margin-left:50px;
+    border-radius:50%;
+    max-width: 600px;
+    padding-left:100px;
+}
+.top{
+    height:100px;
+  
+    border-radius:20px;
+    display: flex;
+    padding-left:50px;
+}
+.box1{
+   
+    width:700px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box2{
+
+    width:700px;
+    padding-toP:30px;
+   font-size:x-large;
+    padding-left:10px;
+}
+a{
+    text-decoration: none;
+    color:rgb(131, 66, 66);
+padding-left:80px;
+}
+.side{ 
+}
+.grid{
+    display: grid;
+    grid-template-columns: 150px 100px;
+}
+i{
+    font-size:40px ; padding-right:170px;
+    padding-top: 20px;
+    padding-left:20px;
+}
+.side{
+     width:100px;
+    height:900px;
+    border-radius: 30px;
+    padding-top:70px;
+}
+i{
+    padding-bottom: 60px;
+}
+button{
+    background: none;      /* Remove background color */
+  border: none;          /* Remove border */
+  outline: none;         /* Remove outline */
+  box-shadow: none;      /* Remove shadow */
+  padding: 0;            /* Remove default padding */
+  font: inherit;         /* Use parent font */
+  color: inherit; 
+  cursor:pointer;
+}
+body{
+    height:10px;
+}
